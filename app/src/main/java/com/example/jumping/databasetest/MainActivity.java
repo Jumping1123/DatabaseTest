@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 values.put("name", "The DaVinci code");
                 values.put("author", "Dan Brown");
                 values.put("pages", 454);
-                values.put("price", 16.96);
+                values.put("price", 16.99);
                 db.insert("Book", null, values);
                 values.clear();
                 values.put("name", "The Lost Symbol");
